@@ -1,0 +1,5 @@
+method,count_accuracy,mask_iou,raw_mask_iou,mean_iou,false_positives,missed,mean_measurement_error_pct,processing_time_ms,images_with_no_match
+global,0.8102,0.7778,0.7361,0.9411,0.55,1.8,9.0233,0.1256,0
+otsu,0.8102,0.7794,0.7377,0.9419,0.55,1.8,9.0314,0.2862,0
+adaptive,0.6286,0.283,0.0992,0.9517,3.95,1.35,68.0247,1.174,0
+edge,0.6712,0.7444,0.7443,0.908,0.55,2.65,14.09,2.7847,5
