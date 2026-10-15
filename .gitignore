@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------
+# Streamlit
+# ---------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ---------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------
+# Project: regenerable data
+# The dataset is rebuilt exactly by `python generate_dataset.py`
+# (seed 42), so it does not need to be versioned.
+# ---------------------------------------------------------------
+dataset/
+
+# Saved masks from `run_benchmark.py --save-masks` (large, regenerable)
+results/masks/
+
+# ---------------------------------------------------------------
+# Project: dev-only scratch files (see report item 39)
+# ---------------------------------------------------------------
+test-file.py
+check_*.py
+adaptive_default_normal_01.png
